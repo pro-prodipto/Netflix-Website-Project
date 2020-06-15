@@ -1,0 +1,211 @@
+:root {
+	--primary-color: #e50914;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial' , sans-serif;
+	--webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h1, h2, h3, h4 {
+	color: #fff;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+.showcase {
+	width: 100%;
+	height: 93vh;
+	position: left;
+	background: url('https://img.techpowerup.org/200613/netflix-backgroung-image.jpg') no-repeat center center/cover;
+	border-bottom: 8px solid #222;
+	text-indent: 5px;
+}
+
+.showcase-top {
+	position: absolute;
+	height: 90px;
+	padding-left: 260px;
+}
+
+.showcase-top img {
+	width: 170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	border-bottom: 8px solid #222;
+}
+
+nav {
+	float: right;
+	padding-top: 30px;
+	padding-right: 50px;
+}
+
+/* Button */
+.btn {
+	display: inline-block;
+	background: var(--primary-color);
+	text-align: center;
+	border : none;
+	cursor: pointer;
+	margin-right: 0.5rem;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+	border-radius: 2px;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn-rounded {
+	border-radius: 5px;
+}
+
+.btn-x1 {
+	font-size: 1rem;
+	padding: 0.8rem 1.3rem;
+	text-transform: uppercase; 
+}
+
+.search-box {
+	position: center;
+	transform: translate(-50,-50);
+	height: 60px;
+}
+
+input {
+	height: 49px;
+	width: 550px;
+	border-radius: 5px;
+	padding: 0px 10px;
+}
+
+.enjoy-tv {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 280px;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222; 
+}
+
+.enjoy-tv img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.Watch-offline {
+	font-size: 30px;
+	text-align: justify;
+	position: relative;
+	padding: 150px 10%;
+	margin-bottom: 0;
+	margin-left: 280px;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;
+}
+
+.Watch-offline img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.watch-everywhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 280px;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;	
+}
+
+.watch-everywhere img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.ask-question {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.ask-question h1 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.ask-question button {
+	display: center;
+	text-align: left;
+	background-color: #303030;
+	color: white;
+	height: 65px;
+	width: 700px;
+	font-size: 0.9rem;
+	padding: 0.3rem 0.5rem;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.page-down {
+	border-top: 8px solid #222;
+	background-color: transparent;
+	font-size: 0.8rem;
+	margin-bottom: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0.5rem;
+}
