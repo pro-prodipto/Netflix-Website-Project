@@ -78,14 +78,17 @@ nav {
 	text-align: center;
 	border : none;
 	cursor: pointer;
+	
 	margin-right: 0.5rem;
 	outline: none;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.45);
-	border-radius: 2px;
+	border-radius: 5px;
+	transition: background-color .4s;
+	padding: 0.5rem 1rem;
 }
 
 .btn:hover {
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
 .btn-rounded {
