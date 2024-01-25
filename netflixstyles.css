@@ -1,7 +1,7 @@
 :root {
 	--primary-color: #e50914;
 }
-
+ 
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -45,15 +45,24 @@ img {
 	width: 100%;
 	height: 93vh;
 	position: left;
-	background: url('https://img.techpowerup.org/200613/netflix-backgroung-image.jpg') no-repeat center center/cover;
+	background: url('https://raw.githubusercontent.com/Tsiangana/AOFlix/master/img/capa3.png') no-repeat center center/cover;
 	border-bottom: 8px solid #222;
 	text-indent: 5px;
 }
 
 .showcase-top {
 	position: absolute;
-	height: 90px;
-	padding-left: 260px;
+	height: 130px;
+	width: 90px;
+	margin-left: 170px;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 15px;
+	padding-top: 24px;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: sans-serif;
+	cursor: pointer;
 }
 
 .showcase-top img {
@@ -123,39 +132,32 @@ input {
 	margin-bottom: 0;
 	background: 0 0;
 	color: #fff;
-	display: block;
+	display: flex;
+	align-items: center;
 	border-bottom: 8px solid #222; 
 }
 
 .enjoy-tv img {
 	width: 450px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(+20%, -50%);
-	display: block;
 }
 
 .Watch-offline {
 	font-size: 30px;
-	text-align: justify;
+	text-align: left;
 	position: relative;
 	padding: 150px 10%;
 	margin-bottom: 0;
-	margin-left: 280px;
-	background: 0 0;
+	padding-left: 230px;
+	background: var(--primary-color);
 	color: #fff;
-	display: block;
+	display: flex;
+	align-items: center;
 	border-bottom: 8px solid #222;
 }
 
 .Watch-offline img {
 	width: 450px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(+20%, -50%);
-	display: block;
+	margin-left: 20px;
 }
 
 .watch-everywhere {
@@ -165,10 +167,10 @@ input {
 	padding: 150px 10%;
 	padding-left: 280px;
 	margin-bottom: 0;
-	background: 0 0;
 	color: #fff;
 	display: block;
 	border-bottom: 8px solid #222;	
+	background: url('https://www.showmetech.com.br/wp-content/uploads//2023/04/imagem_2023-04-05_171218497.png.webp') no-repeat center center/cover;
 }
 
 .watch-everywhere img {
@@ -205,9 +207,10 @@ input {
 
 .page-down {
 	border-top: 8px solid #222;
-	background-color: transparent;
+	background-color: var(--primary-color);
 	font-size: 0.8rem;
 	margin-bottom: 1.5rem;
+	padding: 25px;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 0.5rem;
